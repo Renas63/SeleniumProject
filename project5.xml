@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Suite" parallel="methods" thread-count="3">
+    <parameter name="MyUsername" value="admin"></parameter>
+    <parameter name="MyPassword" value="admin"></parameter>
+    <test name="First Task">
+        <classes>
+            <class name="Task1And2"></class>
+        </classes>
+    </test>
+</suite>
